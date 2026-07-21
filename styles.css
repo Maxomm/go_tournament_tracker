@@ -64,9 +64,9 @@ body {
 
 h1 {
   margin: 0 auto;
-  max-width: 14ch;
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(1.5rem, 3.2vw, 2.5rem);
   line-height: 0.98;
+  white-space: nowrap;
 }
 
 .lookup-form {
@@ -266,10 +266,6 @@ h1 {
 @media (max-width: 640px) {
   .shell {
     padding: 1rem;
-  }
-
-  .lookup-form {
-    flex-direction: column;
   }
 
   .lookup-form button {
